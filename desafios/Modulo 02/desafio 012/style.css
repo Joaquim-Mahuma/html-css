@@ -1,28 +1,68 @@
 @charset "UTF-8";
 
 * {
-    
     margin: 0;
     padding: 0;
 }
 
+html, body {
+    background-color: darkgrey;
+    min-width: 100vh;
+}
+
 header {
     background-color: black;
+    text-align:center; 
     color: white;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a { 
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-left: 30px;
+    padding-bottom: 10vh;
+
+}
+
+.normal {
+    background-color: white;
+    color: black;
+}
+
+.imagem {
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+.imagem p {
+    background-color: rgb(68, 68, 68);
+    width: 400px;
+}
+
+footer {
+    background-color: black;
     text-align: center;
-
-    padding: 50px;
-}
-
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
-h1::first-letter {
-    font-size: 3rem;
-}
-
-#cordel_site {
     color: white;
+
+    padding: 10px;
 }
