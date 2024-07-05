@@ -5,6 +5,7 @@
 }
 
 table {
+    position: relative;
     width: 600px;
     border: 1px solid black;
     border-collapse: collapse;
@@ -22,6 +23,14 @@ caption {
 thead {
     background-color: #9497b6;
     color: white;
+}
+
+thead > tr >  th {
+
+    border: 1px solid black;
+    background-color: #9497b6;
+    position: sticky;
+    top: -1px;
 }
 
 tbody >tr:nth-child(even) {
