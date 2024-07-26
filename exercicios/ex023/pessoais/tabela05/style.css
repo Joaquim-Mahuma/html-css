@@ -5,10 +5,11 @@
 }
 
 table {
+    
     text-align: center;
     border-collapse: collapse;
     border: 1px solid black;
-    width: 400px;
+    width: 550px;
     
 }
 
@@ -17,7 +18,14 @@ th {
     background-color: gray;
 }
 
+.cabecalho {
+    color: black;
+    background-color: white;
+    font-weight: normal;
+}
+
 td, th {
+    
     padding: 10px 0px;
     border: 1px solid black;
 }
