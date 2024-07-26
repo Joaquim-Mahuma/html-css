@@ -6,7 +6,7 @@
 
 table {
     border-collapse: collapse;
-    border: 1px solid rgb(77, 37, 5);
+    
 }
 th {
     font-weight: bolder;
@@ -14,7 +14,7 @@ th {
 
 th, td {
     
-    border: 1px solid rgb(77, 37, 5);
+    border: 1px solid rgb(0, 0, 0);
 
     padding: 10px 15px;
 }
