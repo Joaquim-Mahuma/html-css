@@ -6,8 +6,22 @@
     <title>Formulários</title>
 </head>
 <body>
-    <form action="cadastro.php">
-        
+    <form action="cadastro.php" method="GET" autocomplete="on">
+
+        <p>
+            <label for="icor">Cor: </label>
+            <input type="color" name="cor" id="icor">
+        </p>
+
+        <p>
+            <label for="inivel">Nivel de satisfação</label>
+            <input type="range" name="nivel" id="inivel">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
     </form>
 </body>
 </html>
